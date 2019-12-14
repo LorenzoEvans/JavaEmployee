@@ -52,15 +52,15 @@ public class Employee {
         return salary;
     }
 
-    public void changeSalary(double salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
-    public boolean has401k() {
+    public boolean getHas401k() {
         return has401k;
     }
 
-    public void change401k(boolean has401k){
+    public void setHas401k(boolean has401k){
         this.has401k = has401k;
     }
 
@@ -68,7 +68,7 @@ public class Employee {
         return company;
     }
 
-    public void changeCompany(int company) {
+    public void setCompany(int company) {
         this.company = company;
     }
 
@@ -76,7 +76,7 @@ public class Employee {
         return healthPlanID;
     }
 
-    public void changeHealthPlanID(int healthPlanID) {
+    public void setHealthPlanID(int healthPlanID) {
         this.healthPlanID = healthPlanID;
     }
 
