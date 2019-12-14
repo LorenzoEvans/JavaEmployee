@@ -56,4 +56,28 @@ public class Employee {
         this.salary = salary;
     }
 
+    public boolean has401k() {
+        return has401k;
+    }
+
+    public void change401k(boolean has401k){
+        this.has401k = has401k;
+    }
+
+    public int getCompany(){
+        return company;
+    }
+
+    public void changeCompany(int company) {
+        this.company = company;
+    }
+
+    public int getHealthPlanID() {
+        return healthPlanID;
+    }
+
+    public void changeHealthPlanID(int healthPlanID) {
+        this.healthPlanID = healthPlanID;
+    }
+
 }
