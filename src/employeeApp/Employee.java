@@ -82,7 +82,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        String rtnStr = "id: " + id + 
+        String rtnStr = "id: " + id + " " +
                         "name: " + this.get_f_name() + " " + this.get_l_name() + " " + 
                         "salary: " + this.getSalary() + " " +
                         "company: " + this.getCompany();
