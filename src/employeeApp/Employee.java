@@ -85,7 +85,7 @@ public class Employee {
         String rtnStr = "id: " + id + 
                         "name: " + this.get_f_name() + this.get_l_name() +
                         "salary: " + this.getSalary() +
-                        "company: " + this.getCompany() 
+                        "company: " + this.getCompany();
 
         return rtnStr;
     }
