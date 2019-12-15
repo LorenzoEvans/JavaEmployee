@@ -8,7 +8,6 @@ public class HealthPlan {
     public HealthPlan(String name) {
         maxID++;
         id = maxID;
-
         this.name = name;
     }
 

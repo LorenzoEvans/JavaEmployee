@@ -36,7 +36,7 @@ public class Employee {
         return f_name;
     }
 
-    public void setF_name(String f_name) {
+    public void setF_name(String f_name) { // setter
         this.f_name = f_name;
     }
 
