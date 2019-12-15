@@ -17,7 +17,7 @@ public class Company {
 
     @Override
     public String toString() {
-        String rtnStr = "id: " + id + "name: " + name + "debt: " + debt;
+        String rtnStr = "id: " + id + " name: " + name + " debt: " + debt;
         return rtnStr;
     }
 }
