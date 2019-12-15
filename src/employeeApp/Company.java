@@ -14,4 +14,10 @@ public class Company {
         this.name = name;
         this.debt = debt;
     }
+
+    @Override
+    public String toString() {
+        String rtnStr = "id: " + id + "name: " + name + "debt: " + debt;
+        return rtnStr;
+    }
 }
