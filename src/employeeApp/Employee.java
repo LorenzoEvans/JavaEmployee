@@ -48,7 +48,7 @@ public class Employee {
         this.l_name = l_name ;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 
